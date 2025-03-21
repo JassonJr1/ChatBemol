@@ -2,7 +2,7 @@
 
 ###  1. A solução deve ser disponibilizada em Cloud ou On-premise?
 
-Acredito que o ideal seja disponibilizá-la em Cloud, considerando os benefícios de escalabilidade, alta disponibilidade e facilidade de gerenciamento. Serviços como Azure** ou **AWS permitem que a aplicação seja implantada de forma eficiente.
+Acredito que o ideal seja disponibilizá-la em Cloud, considerando os benefícios de escalabilidade, alta disponibilidade e facilidade de gerenciamento. Serviços como Azure ou AWS permitem que a aplicação seja implantada de forma eficiente.
 
 ---
 
