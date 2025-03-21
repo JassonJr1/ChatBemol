@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatBemol.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2c72346992410fd77e74662498b4e95353ef57b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+972a5647a9491a5444ad96804ecbb6d8d6682ee8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatBemol.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatBemol.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

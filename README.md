@@ -55,7 +55,30 @@ cd chatbemol
 
 ---
 
-### 2. Rodar o Backend
+### 2. Configuração do Banco de Dados
+
+Crie o arquivo `ChatBemol.Api/appsettings.Development.json` com base no modelo abaixo:
+
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=ChatBemolDB;User Id=seu_usuario;Password=sua_senha;TrustServerCertificate=True;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+```
+
+Você também pode copiar o arquivo appsettings.Development.json.example e renomear para appsettings.Development.json.
+
+---
+
+### 3. Rodar o Backend
 
 ```bash
 cd ChatBemol.Api
@@ -68,7 +91,7 @@ A API será executada em: `http://localhost:5189`
 
 ---
 
-### 3. Configurar variáveis de ambiente
+### 4. Configurar variáveis de ambiente
 
 Antes de rodar o frontend, crie um arquivo chamado `.env.local` dentro da pasta `chatbemol.web` com o seguinte conteúdo:
 
@@ -81,7 +104,7 @@ Se você estiver rodando o backend em uma porta diferente, atualize esse valor c
 
 ---
 
-### 4. Rodar o Frontend
+### 5. Rodar o Frontend
 
 ```bash
 cd chatbemol.web

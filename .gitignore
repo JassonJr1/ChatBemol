@@ -65,3 +65,7 @@ database.sqlite-journal
 *.ntvs*
 *.njsproj
 *.sln.docstates
+
+# ASP.NET app settings
+appsettings.json
+appsettings.Development.json
