@@ -46,7 +46,7 @@ cd chatbemol
 ### 2. Rodar o Backend
 
 ```bash
-cd ChatBemol.api
+cd ChatBemol.Api
 dotnet restore
 dotnet ef database update
 dotnet run
