@@ -1,0 +1,42 @@
+"use client"
+import Link from "next/link"
+
+export default function BaseLayout({ children }) {
+  return (
+    <div className="flex flex-col min-h-screen">
+      {/* 🔹 Header */}
+      <header className="bg-blue-600 text-white p-4 shadow-md">
+        <div className="container mx-auto flex justify-between items-center">
+          <h1 className="text-xl font-bold">ChatBemol</h1>
+          <nav>
+            <ul className="flex space-x-4">
+              <li>
+                <Link href="/" className="hover:underline">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/cadastro" className="hover:underline">
+                  Cadastro
+                </Link>
+              </li>
+              <li>
+                <Link href="/login" className="hover:underline">
+                  Login
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      {/* 🔹 Conteúdo */}
+      <main className="flex-grow container mx-auto p-6">{children}</main>
+
+      {/* 🔹 Footer */}
+      <footer className="bg-gray-800 text-white text-center p-4 mt-8">
+        <p>&copy; 2025 ChatBemol - Todos os direitos reservados.</p>
+      </footer>
+    </div>
+  )
+}

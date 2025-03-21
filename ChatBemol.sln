@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBemol.Api", "ChatBemol.Api\ChatBemol.Api.csproj", "{F003DE98-5F34-1771-8F28-80BF91959562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F003DE98-5F34-1771-8F28-80BF91959562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F003DE98-5F34-1771-8F28-80BF91959562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F003DE98-5F34-1771-8F28-80BF91959562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F003DE98-5F34-1771-8F28-80BF91959562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {297C34D9-7219-40EB-89C9-5EC515C9A3FE}
+	EndGlobalSection
+EndGlobal

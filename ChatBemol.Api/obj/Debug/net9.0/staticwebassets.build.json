@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Jo1dEO72N3GF+5RKWEsEncO5lZVVmsGx1YGM1Xk4uIA=",
+  "Source": "ChatBemol.Api",
+  "BasePath": "_content/ChatBemol.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
