@@ -115,3 +115,7 @@ npm run dev
 O frontend será executado em: `http://localhost:3000`
 
 ---
+
+## Questionario
+
+As respostas para as perguntas do desafio podem ser encontradas [aqui](Questionario.md)
