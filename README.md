@@ -74,7 +74,7 @@ Crie o arquivo `ChatBemol.Api/appsettings.Development.json` com base no modelo a
 }
 ```
 
-Você também pode copiar o arquivo appsettings.Development.json.example e renomear para appsettings.Development.json.
+Você também pode copiar o arquivo ![appsettings.Development.json.example](ChatBemol.Api/appsettings.Development.json.example) e renomear para appsettings.Development.json.
 
 ---
 
