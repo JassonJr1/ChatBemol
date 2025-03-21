@@ -12,6 +12,18 @@ O projeto utiliza **Next.js (Frontend)** e **.NET + SQL Server (Backend)**.
 
 ---
 
+## Funcionalidades
+
+- Cadastro de usuário com validações completas (e-mail, CPF, telefone, senha, CEP, etc.)
+- Validação automática de endereço via CEP (usando a API do ViaCEP)
+- Login com e-mail e senha
+- Visualização dos dados do usuário logado
+- Redirecionamento pós-cadastro e pós-login
+- Validações visuais e responsivas com Tailwind CSS
+- Interface adaptada com base no visual da Bemol
+
+---
+
 ## Diagramas em C4 Model
 
 ### 1. Visão da Infraestrutura
@@ -80,13 +92,3 @@ npm run dev
 O frontend será executado em: `http://localhost:3000`
 
 ---
-
-## Funcionalidades
-
-- Cadastro de usuário com validações completas (e-mail, CPF, telefone, senha, CEP, etc.)
-- Validação automática de endereço via CEP (usando a API do ViaCEP)
-- Login com e-mail e senha
-- Visualização dos dados do usuário logado
-- Redirecionamento pós-cadastro e pós-login
-- Validações visuais e responsivas com Tailwind CSS
-- Interface adaptada com base no visual da Bemol
