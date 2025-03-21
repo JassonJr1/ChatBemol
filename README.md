@@ -24,6 +24,14 @@ O projeto utiliza **Next.js (Frontend)** e **.NET + SQL Server (Backend)**.
 
 ## Diagramas em C4 Model
 
+### 1. Visão da Infraestrutura
+
+![Diagrama de Infraestrutura](Diagrams/Infraestrutura%20-%20C4%20Diagram.png)
+
+### 2. Design da Solução
+
+![Diagrama de Design da Solução](Diagrams/Design%20-%20C4%20Diagram.png)
+
 ---
 
 ### 1. Clonar o projeto
