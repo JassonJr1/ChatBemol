@@ -12,16 +12,6 @@ O projeto utiliza **Next.js (Frontend)** e **.NET + SQL Server (Backend)**.
 
 ---
 
-## Como rodar o projeto localmente
-
-### Requisitos
-
-- Node.js (v18 ou superior)
-- .NET 7 ou superior
-- SQL Server (local ou remoto)
-
----
-
 ## Diagramas em C4 Model
 
 ### 1. Visão da Infraestrutura
@@ -31,6 +21,16 @@ O projeto utiliza **Next.js (Frontend)** e **.NET + SQL Server (Backend)**.
 ### 2. Design da Solução
 
 ![Diagrama de Design da Solução](Diagrams/Design%20-%20C4%20Diagram.png)
+
+---
+
+## Como rodar o projeto localmente
+
+### Requisitos
+
+- Node.js (v18 ou superior)
+- .NET 7 ou superior
+- SQL Server (local ou remoto)
 
 ---
 
@@ -56,7 +56,20 @@ A API será executada em: `http://localhost:5189`
 
 ---
 
-### 3. Rodar o Frontend
+### 3. Configurar variáveis de ambiente
+
+Antes de rodar o frontend, crie um arquivo chamado `.env.local` dentro da pasta `chatbemol.web` com o seguinte conteúdo:
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:5189
+```
+
+Essa variável define a URL base da API utilizada pelo frontend.
+Se você estiver rodando o backend em uma porta diferente, atualize esse valor conforme necessário.
+
+---
+
+### 4. Rodar o Frontend
 
 ```bash
 cd chatbemol.web
